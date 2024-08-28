@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+* {
+    @apply border border-solid border-red-100
+  }
