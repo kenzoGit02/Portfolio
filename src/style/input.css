@@ -4,6 +4,31 @@
 @tailwind utilities;
 
 /* Custom styles */
-* {
-    @apply border border-solid border-red-100
+
+/* * {
+  @apply border border-solid border-red-100
+} */
+
+
+
+@layer utilities { /* Project's Scrollbar */
+  .scrollbar::-webkit-scrollbar {
+    width: 15px;
+    height: 20px;
   }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 50vh;
+    background: #334155;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 50vh;
+    border: 3px solid #4b4b4b;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+  }
+}
