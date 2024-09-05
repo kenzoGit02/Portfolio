@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        test:['New Amsterdam', 'sans serif']
+        amsterdam:['New Amsterdam', 'sans serif']
       }
     },
   },
