@@ -833,9 +833,9 @@ video {
 
 /* Custom styles */
 
-main * {
-  /* @apply border border-solid border-red-100 */
-}
+/* main * {
+  @apply border border-solid border-red-100
+} */
 
 .tech-skill{
   margin-top: 0.25rem;
